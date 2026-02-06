@@ -1,0 +1,87 @@
+了解です。今後量産できるように、**「変える所は少なく」「外さない」**鉛筆画風テンプレを用意します。
+ここでは **Sora 2向け**に、①ベース（固定）②シーン差し替え枠③音（ASMR）枠④ネガティブ（禁止）を分けます。これで毎回、差し替えだけで回せます。
+
+---
+
+## ひな型A：鉛筆画フリップブック（会話なし・白黒）テンプレ（英語）
+
+そのまま貼って、【 】だけ書き換えてください。
+
+**[FORMAT]**
+Vertical 9:16. Duration: 【10s / 15s】. Black-and-white only (monochrome).
+
+**[STYLE LOCK]**
+Gentle graphite pencil sketch, hand-drawn on lightly textured paper. Soft cross-hatching shading, minimal background detail. Flipbook / frame-by-frame feel: slightly choppy timing, subtle line jitter per frame. Not smooth interpolation. No color at all. No photorealism, no CGI.
+
+**[NO TEXT / NO DIALOGUE]**
+No dialogue. No captions. No on-screen text. No speech bubbles. No logos.
+
+**[SUBJECT]**
+【Who/what is the main subject? e.g., a shy schoolgirl / a kitten / a puppy】
+Appearance: 【age/size/clothing/fur, etc.】
+Mood: 【gentle / anxious / hopeful / calm】
+
+**[LOCATION / PROPS]**
+Location: 【simple room / school corridor / quiet street】
+Props: 【stand microphone / small chocolate box / etc.】
+Keep the environment minimal and quiet.
+
+**[ACTION TIMELINE]**
+0–2s: 【setup / empty frame / subject enters】
+2–4s: 【approach / small movement】
+4–7s: 【main action begins】
+7–10s: 【close-up / emotional beat / finish on stillness】
+End with a calm hold like the final flipbook page.
+
+**[CAMERA]**
+【medium shot / close-up / two-shot】, gentle pacing, no fast camera moves, no flashy transitions.
+
+---
+
+## ひな型B：ASMRつき（音が主役）テンプレ（英語）
+
+上のAに、これを追加します（ASMRを使う回だけ）。
+
+**[ASMR AUDIO FOCUS]**
+Sound-first. Background nearly silent (no music, no voices, no wind).
+Main sound: 【desired cute sound description】 (very soft, intimate, close-mic).
+Secondary sound: 【micro texture sounds: paw taps / fur rustle / whisker tick / fabric rub】.
+First audible main sound within 0.5s. Add micro-changes every ~2 seconds.
+
+**[ASMR AVOID]**
+Avoid loud sounds: barking/meowing, heavy breathing/panting, loud footsteps, strong reverb, room hiss.
+
+---
+
+## ひな型C：ネガティブ（固定・強め）テンプレ（英語）
+
+毎回末尾に付けると安定します。
+
+**Negative prompt:**
+Avoid any text, subtitles, captions, signage, speech bubbles, logos, watermarks. Avoid color, neon, gradients. Avoid 3D/CGI, photorealism, anime cel shading, glossy lighting, heavy filters, camera shake, fast cuts, exaggerated expressions.
+
+---
+
+## 日本語の“差し替え欄”だけ版（書く時のメモ）
+
+毎回ここだけ決めればOKです。
+
+* 主役：だれ（なに）／年齢感／雰囲気
+* 場所：シンプルに（描き込みすぎない）
+* 小道具：1〜2個まで
+* 10秒の流れ：入る→近づく→メイン→余韻
+* ASMR：狙う音（主）＋支える音（副）＋避ける音
+
+---
+
+## 使い方の例（子ネコASMRに当てはめ）
+
+* Subject: tiny fluffy kitten (2–3 months)
+* Location/Props: minimal room + vintage stand microphone
+* Main sound: tiny “kyuru-kyuru” sniffing near mic
+* Timeline: 0–2 empty→2–4入る→4–7近づく→7–10クンクン寄り
+
+---
+
+もしよければ、あなたの制作に合わせてテンプレをもう一段だけ強くできます。
+例えば「必ず紙の目が見える」「ハッチング密度は薄め」「線の太さを一定」みたいに“固定ルール”を3つ決めると、シリーズ感が一気に揃います。

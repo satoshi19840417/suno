@@ -1,0 +1,12 @@
+# Large media files
+*.mp4
+*.mp3
+*.wav
+
+# suno_PJ media (explicit patterns required by workflow)
+public/suno_PJ/**/*.mp4
+public/suno_PJ/**/*.mp3
+public/suno_PJ/**/*.wav
+my-remotion-01/public/suno_PJ/**/*.mp4
+my-remotion-01/public/suno_PJ/**/*.mp3
+my-remotion-01/public/suno_PJ/**/*.wav

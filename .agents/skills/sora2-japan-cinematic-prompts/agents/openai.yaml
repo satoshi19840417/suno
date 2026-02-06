@@ -1,0 +1,5 @@
+﻿version: 1
+interface:
+  display_name: Sora2 Japan Cinematic Prompts
+  short_description: Sora2向け15秒16:9の日本映画調プロンプトを日英併記で作成（英語はそのまま貼り付け可）
+  default_prompt: Sora2用に15秒16:9の日本映画調プロンプトを作成して。カット割り付きで日英併記、英語版はそのまま貼り付け可能な1ブロック形式で。
