@@ -27,6 +27,7 @@
 | 「縦書きリリック」 | `create_vertical_lyric_video` |
 | 「作業終了」「GitHubにpush」 | `finish_work` |
 | 「スキル作って」「スキル更新」 | `skill-creator` / `skill-authoring-guidelines` |
+| 「開発環境起動」「プレビュー」「Remotion起動」 | `remotion-preview-launch` |
 
 ## Skills
 A skill is a set of local instructions to follow that is stored in a `SKILL.md` file. Below is the list of skills that can be used. Each entry includes a name, description, and file path so you can open the source for full instructions when using a specific skill.
@@ -42,6 +43,7 @@ A skill is a set of local instructions to follow that is stored in a `SKILL.md` 
 - finish_work: Finalize and sync work to GitHub when user says 作業終了 (file: my-remotion-01/.agent/skills/finish_work/SKILL.md)
 - skill-authoring-guidelines: Create or update skills while aligning with Claude, Antigravity, and OpenAI Codex skill docs. (file: my-remotion-01/.agent/skills/skill-authoring-guidelines/SKILL.md)
 - skill-creator: Create or update AgentSkills. Use when designing, structuring, or packaging skills. (file: my-remotion-01/.agent/skills/skill-creator/SKILL.md)
+- remotion-preview-launch: Start or check Remotion Studio and return preview URL/PID/log paths after lyric video work, or when user asks to launch development preview. Use for "開発環境起動", "プレビュー", "Remotion起動". (file: my-remotion-01/.agent/skills/remotion-preview-launch/SKILL.md)
 
 ### Workflows
 - /create_new_skill: Create a new agent skill using the skill-creator and authoring guidelines (file: my-remotion-01/.agent/workflows/create_new_skill.md)
