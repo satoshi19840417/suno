@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(ls \"c:\\\\Users\\\\sench\\\\remotion-test-work\\\\my-remotion-01\\\\public\\\\suno_PJ\"\" 2>nul || echo \"suno_PJ not found \")"
+      "Bash(ls \"c:\\\\Users\\\\sench\\\\remotion-test-work\\\\my-remotion-01\\\\public\\\\suno_PJ\"\" 2>nul || echo \"suno_PJ not found \")",
+      "mcp__plugin_claude-mem_mcp-search__search"
     ]
   }
 }
