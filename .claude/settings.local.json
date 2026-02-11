@@ -5,7 +5,8 @@
       "mcp__plugin_claude-mem_mcp-search__search",
       "Bash(npx remotion studio)",
       "Bash(npm ls:*)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "WebFetch(domain:fontfree.me)"
     ]
   }
 }
