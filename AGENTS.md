@@ -87,6 +87,7 @@
 |---|---|---|---|
 | 「開発環境起動」「プレビュー見たい」「Remotion起動」 | 起動, プレビュー, 環境 | `remotion-preview-launch` | 実行環境制御 |
 | 「作業終了」「GitHubにpush」「同期」 | 終了, 完了, GitHub, push | `finish_work` | 終了・同期処理 |
+| 「git addでNULエラー」「invalid path 'NUL'」「NULを消したい」 | git, NUL, invalid path, 予約名 | `git-windows-reserved-path-guard` | Windows予約名の検出・修復と再発防止 |
 
 #### Group F: スキル・開発
 | 発話パターン | キーワード | 使用スキル | 判定根拠 |
@@ -225,6 +226,7 @@ A skill is a set of local instructions to follow that is stored in a `SKILL.md` 
 - finish_work: Finalize and sync work to GitHub when user says 作業終了 (file: my-remotion-01/.agent/skills/finish_work/SKILL.md)
 - skill-authoring-guidelines: Create or update skills while aligning with Claude, Antigravity, and OpenAI Codex skill docs. (file: my-remotion-01/.agent/skills/skill-authoring-guidelines/SKILL.md)
 - skill-creator: Create or update AgentSkills. Use when designing, structuring, or packaging skills. (file: my-remotion-01/.agent/skills/skill-creator/SKILL.md)
+- git-windows-reserved-path-guard: Prevent and remediate Git failures caused by Windows reserved names (NUL/CON/AUX/PRN/COM/LPT), including preflight detection and approved cleanup workflow. (file: my-remotion-01/.agent/skills/git-windows-reserved-path-guard/SKILL.md)
 - remotion-preview-launch: Start or check Remotion Studio and return preview URL/PID/log paths after lyric video work, or when user asks to launch development preview. Use for "開発環境起動", "プレビュー", "Remotion起動". (file: my-remotion-01/.agent/skills/remotion-preview-launch/SKILL.md)
 
 ### Workflows
