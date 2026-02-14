@@ -7,7 +7,15 @@
       "Bash(npm ls:*)",
       "Bash(npm install:*)",
       "WebFetch(domain:fontfree.me)",
-      "mcp__plugin_claude-mem_mcp-search__save_memory"
+      "mcp__plugin_claude-mem_mcp-search__save_memory",
+      "Bash(claude plugin search:*)",
+      "Bash(claude plugin --help:*)",
+      "Bash(claude plugin list:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(claude plugin marketplace add:*)",
+      "Bash(claude plugin install context7-plugin@context7-marketplace)",
+      "Bash(claude plugin install:*)",
+      "Bash(claude mcp add:*)"
     ]
   }
 }
